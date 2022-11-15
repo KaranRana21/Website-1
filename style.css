@@ -1,0 +1,437 @@
+                   
+                   /* Default Web View */
+                                                               
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "fontBold";
+  src: url("fonts/Roboto-Bold.ttf");
+}
+
+
+@font-face {
+  font-family: "fontMedium";
+  src: url("fonts/Roboto-Medium.ttf");
+}
+
+@font-face {
+  font-family: "fontRegular";
+  src: url("fonts/Roboto-Regular.ttf");
+}
+
+body {
+  color: #080808;
+  font-size: 62.5%;
+}
+
+.dummy {
+  display: block;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  width: 12vw;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.navvy {
+  font-family: "fontMedium";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 10rem 1rem 10rem;
+  border-top: 0.15rem solid #080808;
+  border-bottom: 0.15rem solid #080808;
+  padding: 0.5rem 0 0.5rem 0;
+}
+
+.hamburger{
+  display: none;
+}
+
+.topnav .orange a {
+  color: #e58d41;
+}
+
+ul.topnav {
+  display: flex;
+}
+
+ul.topnav li {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  margin-left: 3rem;
+}
+
+ul.topnav li a {
+  color: #080808;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.slider {
+  display: block;
+  margin: auto;
+  width: 75.5vw;
+  height: 70vh;
+}
+
+.header-dummy h1 {
+  font-family: "fontBold";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem;
+  margin-bottom: 0.3rem;
+  padding-bottom: 0.5rem ;
+}
+
+.underline{
+  border-top: 0.2rem solid #080808;
+  margin: 0 41rem ;
+  padding-bottom: 1rem;
+}
+
+.div2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 17rem 1rem 17rem;
+  font-family: "fontRegular";
+  font-size: 0.8rem;
+
+}
+
+.intro {
+  display: flex;
+  float: right;
+  margin: auto;
+  width: 15rem;
+  height: 8rem;
+  margin-bottom: 1rem;
+  margin-left: 0.5rem;
+}
+
+.button1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button1 a{
+  text-decoration:none ;
+  color: #080808;
+}
+
+.button1 button {
+  padding: 0.5rem 2rem;
+  font-weight: 600;
+  margin: 1rem;
+  background-color: transparent;
+  border: 0.1rem solid #080808;
+  }
+
+.Heading-image-showcase h1 {
+  font-family: "fontBold";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem;
+  margin-bottom: 0.3rem;
+  padding-bottom: 0.5rem ;
+}
+
+.side-by-side {
+  float: left;
+  width: 20%;
+  padding: 0.5rem;
+  margin-top: 0.3rem;
+}
+
+.image-showcase .side-by-side {
+  justify-content: space-between;
+  margin-left: 3rem;
+}
+
+.image-showcase img {
+  border-radius: 50%;
+}
+
+.image-showcase {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-showcase::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.history h1 {
+  font-family: "fontBold";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem;
+  margin-bottom: 0.3rem;
+  padding-bottom: 0.5rem ;
+}
+
+.div-history {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.3rem 10rem 4rem 10rem;
+  font-family: "fontRegular";
+  font-size: 0.8rem;
+}
+
+footer{
+  display: flex;
+  border-top: 0.3rem solid #080808;
+  border-bottom: 0.3rem solid #080808;
+  padding: 0.6rem 0 0.4rem 0;
+  font-family: "fontRegular";
+  font-size: 0.7rem;
+}
+
+.footer-left{
+  display:flex ;
+  margin-left: 10rem;
+}
+
+.footer-right{
+  display: flex;
+  margin-left: 38rem;
+}
+
+.orange2{
+  margin-left: 0.3rem;
+  color: #e58d41;
+}
+
+
+
+                                  /* Tablet View */
+                                 
+@media screen and (max-width:768px){
+
+
+.slider {
+  display: block;
+  margin: auto;
+  width: 35vw;
+  height: 28vh;
+}
+
+.dummy {
+  display: block;
+  margin: auto;
+  float: left;
+  width: 12vw;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+}
+
+footer{
+  display: inline;
+}
+
+
+.footer-left{
+  display: inline ;
+  margin-left: 2rem;
+}
+
+.footer-right{
+  display: inline;
+  margin-left: 20rem;
+}
+
+.orange2{
+  display: inline;
+  margin-left: 0.1rem;
+}
+
+.navvy{
+  display: none;
+  margin: 1rem;
+}
+
+.hamburger{
+  display: block;
+  width: 5vw;
+  height: 3vh;
+  float: right;
+  margin: 1rem;
+
+}
+
+.slider {
+  width: 97vw;
+  height: 31vh;
+  padding-top: 0.1rem;
+
+}
+
+.header-dummy h1 {
+  margin: 1.5rem;
+  margin-bottom: 0.3rem;
+  padding-bottom: 0.5rem ;
+}
+
+
+.underline{
+  margin: 0  23rem ;
+}
+
+.div2 {
+  margin: 1rem;
+  font-size: 0.8rem;
+
+}
+
+.Heading-image-showcase h1 {
+  margin: 1rem;
+}
+
+.side-by-side {
+  float: left;
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.3rem;
+}
+
+.image-showcase .side-by-side {
+  justify-content: space-between;
+  margin-left: 0.5rem;
+}
+
+.history h1 {
+  margin: 1rem;
+}
+
+.div-history {
+  margin: 1rem 1rem 3rem 1rem;
+}
+
+
+
+
+} 
+                                  
+                                  /* Mobile View */
+
+
+@media screen and (max-width:480px){
+
+
+.slider {
+  display: block;
+  margin: auto;
+  width: 35vw;
+  height: 28vh;
+}
+
+.dummy {
+  display: block;
+  margin: auto;
+  float: left;
+  width: 12vw;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+}
+
+footer{
+  display: block;
+}
+
+
+.footer-left{
+  display: block;
+  margin-left: 0.5rem;
+}
+
+.footer-right{
+  display: inline;
+  margin-left: 0.5rem;
+
+}
+
+.orange2{
+  display: inline;
+  margin-left: 0.1rem;
+}
+
+.navvy{
+  display: none;
+  margin: 1rem;
+}
+
+.hamburger{
+  display: block;
+  width: 5vw;
+  height: 3vh;
+  float: right;
+  margin: 1rem;
+
+}
+
+.slider {
+  width: 97vw;
+  height: 31vh;
+  padding-top: 0.1rem;
+
+}
+
+.header-dummy h1 {
+  margin: 1.5rem;
+  margin-bottom: 0.3rem;
+  padding-bottom: 0.5rem ;
+}
+
+.underline{
+  margin: 0  13.9rem ;
+}
+
+.div2 {
+  margin: 1rem;
+  font-size: 0.8rem;
+
+}
+
+.Heading-image-showcase h1 {
+  margin: 1rem;
+}
+
+.side-by-side {
+  float: left;
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.3rem;
+}
+
+.image-showcase .side-by-side {
+  justify-content: space-between;
+  margin-left: 0.5rem;
+}
+
+.history h1 {
+  margin: 1rem;
+}
+
+.div-history {
+  margin: 1rem 1rem 3rem 1rem;
+}
+
+
+
+} 
